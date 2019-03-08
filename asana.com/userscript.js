@@ -1,7 +1,4 @@
-setTimeout(updateDockBadge, 1000);
-setTimeout(updateDockBadge, 3000);
 setInterval(updateDockBadge, 1000); // set how often we check for unread items
-
 
 function updateDockBadge() {
     var inbox = document.getElementsByClassName("has-newNotifications");

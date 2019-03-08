@@ -1,13 +1,9 @@
-# fluidapp_asana_notifications
-Userscript for [Fluid](http://fluidapp.com/) that places a dock badge when there are unread Asana notifications
+# Fluid userscripts
 
-# Usage
+These are browser userscripts designed to work in [Fluid](http://fluidapp.com).
 
-1. Open your Asana fluidapp
-2. In the menubar, open `Window > Userscripts`
-3. Create a new userscript "class" at the bottom left, name it whatever you want ("Asana" would make sense)
-4. With that class selected, create a new pattern to match `*app.asana.com`
-5. Paste the contents of [userscript.js] in the text area
-6. Make sure both the class and pattern are checked
-7. Quit and re-open your Asana fluidapp
-8. Enjoy seeing a dock badge when you have unread inbox items
+Each userscript is in a folder for the website it's written against. Please see the README files for each for further instructions.
+
+## Contributing
+
+If you have any improvements or additions, please feel free to submit a PR.
